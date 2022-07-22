@@ -1,5 +1,6 @@
 # NER_Tasks
 ## N2C2 2018 ADE and Medication Extraction Dataset
-### Data Preprocessing
-First use [N2C2_data_preprocessing(BratToBIO).ipynb](N2C2_data_preprocessing(BratToBIO).ipynb) to create BIO format file (which can be processed by the NeMo framework) to the data folder for NER Task.
-Then in 
+Follow the process of [N2C2_Medication_Token_Classification_BioMegatron.ipynb](N2C2_Medication_Token_Classification_BioMegatron.ipynb) to implement NER task for N2C2 dataset
+
+## CHIA Dataset
+Follow the process of [CHIA_Token_Classification-BioMegatron.ipynb](CHIA_Token_Classification-BioMegatron.ipynb) to implement NER task for CHIA dataset
