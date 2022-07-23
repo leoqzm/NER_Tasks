@@ -15,6 +15,7 @@ Follow the process of [N2C2_Medication_Token_Classification_BioMegatron.ipynb](N
   Choose the pretrain models in the Setting up Pretrain Models section, and train the model in this section
 #### 6. Inference
   Use ```model_ner.half().evaluate_from_file``` to inference and evaluate the model
+  Also for personal data you can use ```model_ner.add_predictions(query, outputfile)``` to predict our own data
 
 ## CHIA Dataset
 Follow the process of [CHIA_Token_Classification-BioMegatron.ipynb](CHIA_Token_Classification-BioMegatron.ipynb) to implement NER task for CHIA dataset
@@ -32,3 +33,4 @@ Follow the process of [CHIA_Token_Classification-BioMegatron.ipynb](CHIA_Token_C
   Choose the pretrain models in the Setting up Pretrain Models section, and train the model in this section
 #### 6. Inference
   Use ```model_ner.half().evaluate_from_file``` to inference and evaluate the model
+  Also for personal data you can use ```model_ner.add_predictions(query, outputfile)``` to predict our own data
